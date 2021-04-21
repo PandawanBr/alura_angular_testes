@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 @Injectable({
   providedIn: 'root'
 })
-export class UniqueServiceId {
+export class UniqueIdService {
 
   private numberOfGeneratedIds = 0;
 
